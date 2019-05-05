@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        margin: 0;
+      }
+      .appLoadFailure {
+        padding: 2rem; text-align: center; visibility: hidden;
+      }
+      .appLoadFailure.show {
+        visibility: visible;
+      }
+    </style>
+    <script>
+      window.onload = function() {
+        setTimeout(function() {
+          let e = document.querySelector('.appLoadFailure')
+          e && e.classList.add('show')
+        }, 2000)
+      }
+    </script>
+  </head>
+  <body>
+    <div id="training">
+      <h2 class="appLoadFailure">Something wrong happened</h2>
+    </div>
+    </body>
+  </html>

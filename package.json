@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "webpack something",
+    "build": "webpack something",
+    "test:jest": "jest something",
+    "test:integration": "cypress something",
+    "test:e2e": "cypress something"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-testing-library": "^7.0.0",
+    "redux": "^4.0.1",
+    "webpack": "^4.30.0"
+  },
+  "devDependencies": {
+    "cypress": "^3.2.0"
+  }
+}
